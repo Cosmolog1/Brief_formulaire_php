@@ -1,0 +1,19 @@
+{
+    "name": "formulaire/php",
+    "description": "formulaire réutilisable",
+    "autoload": {
+        "psr-4": {
+            "Formulaire\\Php\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Cosmolog1",
+            "email": "bourret57@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.9",
+        "vlucas/phpdotenv": "^5.6"
+    }
+}
